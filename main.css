@@ -1,0 +1,193 @@
+body {
+    background-color: #dcdcdc
+    ;
+    color: #0f141e;
+
+    font: normal 16px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #1c222a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    color: red;
+}
+
+
+.avatar {
+    width: 300px;
+    border-radius: 20%;
+    box-shadow: -4px 4px 50px rgba(0, 0, 0, 025);
+}
+
+
+.info {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+@media(max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info p {
+    margin: 0;
+    font-style: italicm;
+}
+
+.social-media {
+    background-color: #0f141ea6;
+    padding: 15px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-one {
+    background: #edb021b2;
+}
+.bg-two {
+    background: #6a655d75;
+}
+.bg-three {
+    background: #899099;
+}
+.bg-fourth {
+    background: #a07000;
+}
+
+.card {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 8px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+    color: #1c222a9d;
+}
+
+.list-server {
+    list-style: none;
+    padding: 0;
+}
+
+.list-server li {
+    margin-bottom: 10px;
+}
+
+.t-projects {
+    width: 100%;
+}
+
+.t-projects td:nth-child(3) {
+    color: #1c222a93;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #899099;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit; 
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+
+.info-text {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.submit-btn {
+    background-color: #111;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+    border-radius: 0px;
+}
+
+/* position */
+
+.position {
+    border: solid 4px black;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.position .box:nth-child(odd) {
+    background-color: #edb021b2;
+}
+.position .box:nth-child(even) {
+    background-color: #1c222a;
+}
