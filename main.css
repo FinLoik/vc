@@ -186,3 +186,10 @@ a:active {
 .position .box:nth-child(even) {
     background-color: #1c222a;
 }
+
+@media(max-width: 720px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
