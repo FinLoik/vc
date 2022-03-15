@@ -32,12 +32,7 @@ a:active {
     display: flex;
 }
 
-@media(max-width: 700px) {
-    .info {
-        text-align: center;
-        display: block;
-    }
-}
+
 
 .info p {
     margin: 0;
